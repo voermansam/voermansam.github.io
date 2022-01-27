@@ -1,0 +1,417 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #0F1E37;
+  text-decoration: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 40px 40px 40px;
+  background-color: #F788BF;
+}
+
+header img {
+  height: 4vh;
+  background-color: #F788BF;
+}
+
+header a {
+  background-color: #F788BF;
+}
+
+h2 {
+  font-family: rubik, sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 2.5vh;
+  padding: 2%;
+  color: #F788BF;
+}
+
+h3 {
+  font-family: rubik, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 2.5vh;
+  padding: 2%;
+  color: #F788BF;
+}
+
+h4 {
+  font-family: rubik, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 2vh;
+  padding: 2%;
+  color: #F788BF;
+}
+
+h5 {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2vh;
+  margin-top: 20px;
+  color: #ffffff;
+  text-align: left;
+  background-color: #0F1E37;
+}
+
+section {
+  margin-top: 10%;
+  margin: 3%;
+}
+
+section, section img, section h3, section p {
+  background-color: #0F1E37;
+}
+
+section img {
+  width: 100%;
+  margin-bottom: 1%;
+}
+
+section h3 {
+  padding: 2% 2% 0 2%;
+  color: #ffffff;
+  background-color: #F788BF;
+  width: 83%;
+}
+
+section p {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2vh;
+  padding: 2%;
+  color: #ffffff;
+}
+
+iframe {
+  margin: 3%;
+}
+
+hr {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+
+.type img {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 33%;
+  margin-top: 20px;
+}
+
+.type h4 {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 400;
+  padding-left: 10px;
+  margin-top: 20px;
+  color: #ffffff;
+  text-align: left;
+  background-color: #0F1E37;
+}
+
+.type h3 {
+  font-style: italic;
+  border-radius: 25px;
+  background-color: #ffffff;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.signup {
+  margin: 200px 5px 0px 5px;
+  font-style: normal;
+}
+
+.continue {
+  font-family: rubik, sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 2.5vh;
+  padding: 2%;
+  color: #F788BF;
+  border-radius: 25px;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 83%;
+  background-color: #ffffff;
+}
+
+.questions {
+  font-family: rubik, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 2.5vh;
+  padding: 2% 2% 0 2%;
+  color: #ffffff;
+  background-color: #F788BF;
+  width: 100%;
+  margin: auto;
+}
+
+.form{
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* .form, .form div, .icon, .icon1, .icon2 {
+  background-color: #0f3a6a;
+} */
+
+.form h3{
+  width: 10%;
+}
+
+.form h4 {
+  text-align: center;
+}
+
+.form div{
+  width: 50%;
+}
+
+.icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  width: 35%;
+
+}
+
+.icon1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  width: 30% !important;
+}
+
+.icon2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  width: 15%;
+}
+
+.or {
+  margin: 3%;
+  width: 10%;
+}
+
+.or h4 {
+  text-align: center;
+  background-color: #0f3a6a;
+}
+
+.gekozen, .gekozen img, .gekozen h4 {
+  background-color: #A772A6;
+}
+
+.outside {
+  width: 9% !important;
+  padding: 1%;
+}
+
+.weather {
+  width: 10% !important;
+  padding: 1%;
+}
+
+.smoke {
+  width: 12% !important;
+  padding: 1%;
+}
+
+.go {
+  width: 15%;
+  float: right;
+}
+
+.prefrence {
+  display: flex;
+  justify-content: center;
+  padding:  0px 50px 0px 50px;
+}
+
+#login {
+  margin: 200px 5px 0px 5px;
+  font-style: normal;
+}
+
+#break {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 75px;
+}
+
+#break hr {
+  width: 40%;
+  margin: auto;
+  color: #d6d6d6;
+}
+
+#break h4 {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 400;
+  background-color: #0F1E37;
+}
+
+#formh2 {
+  font-family: rubik, sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 2.5vh;
+  padding: 2%;
+  color: #F788BF;
+  width: 100%;
+  margin-top: 200px;
+}
+
+#logo {
+  height: 4vh;
+  margin: auto;
+}
+
+#pfp {
+  margin-top: 45%;
+}
+
+#pfp img {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 50%;
+}
+
+#pfp h2 {
+  margin-top: 25px;
+  text-align: center;
+}
+
+#yesno {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+#yesno a {
+  font-family: rubik, sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 2.5vh;
+  padding: 2%;
+  color: #F788BF;
+  border-radius: 25px;
+  background-color: #ffffff;
+  text-align: center;
+  margin: auto;
+  margin-top: 25px;
+  width: 35%;
+}
+
+#camera img {
+  width: 100%;
+}
+
+#sotd {
+  font-family: rubik, sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 3vh;
+  padding: 3% 3% 0 3%;
+  color: #F788BF;
+  margin-top: 155px;
+}
+
+#dash {
+  margin-top: 100px;
+}
+
+#spot {
+  font-family: rubik, sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 3vh;
+  padding: 3% 3% 0 3%;
+  color: #F788BF;
+  margin-top: 18%;
+}
+
+#spot h3 {
+  width: 100%;
+}
+
+#profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 250px;
+  width: 90%;
+}
+
+#profile img {
+  margin: auto;
+  width: 50%;
+}
+
+#profilepic {
+  display: flex;
+  justify-self: center;
+  width: 50%;
+  margin-top: 250px;
+}
+
+#profile h4, #profile h5 {
+  display: inline;
+  margin: 20px 0px 20px 0px;
+}
+
+#profile div {
+  width: 100%;
+  margin: 20px 0px 20px 0px;
+}
+
+#profile h3 {
+  width: 100%;
+  text-align: center;
+}
+
+#season {
+  width: 10%!important;
+  padding: 1%;
+}
+
+#temperature {
+  width: 30px !important;
+  margin:  0px 2% 0px 2%;
+}
